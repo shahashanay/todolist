@@ -4,9 +4,8 @@ import TodoForm from './component/TodoForm';
 import TodoList from './component/TodoList';
 import TodoFilter from './component/TodoFilter';
 import './App.css';
-import { Card } from 'antd';
 
-const App: React.FC = () => {
+const App =  () => {
   return (
     <main>
         <h1  style={{ textAlign: 'center' }}>Todo List</h1>

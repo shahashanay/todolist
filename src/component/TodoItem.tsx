@@ -8,7 +8,7 @@ interface TodoItemProps {
   todo: Todo;
 }
 
-const TodoItem: React.FC<TodoItemProps> = ({ todo }) => {
+const TodoItem = ({ todo }:TodoItemProps) => {
   const dispatch = useDispatch();
 
   const handleToggle = () => {

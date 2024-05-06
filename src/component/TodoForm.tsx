@@ -3,7 +3,7 @@ import { useDispatch } from 'react-redux';
 import { Button, Input } from 'antd';
 import { addTodo } from '../redux/actions';
 
-const TodoForm: React.FC = () => {
+const TodoForm = () => {
   const dispatch = useDispatch();
   const [title, setTitle] = useState('');
   const [description, setDescription] = useState('');

@@ -3,7 +3,7 @@ import { useSelector } from 'react-redux';
 import { Todo, TodoState } from '../redux/types';
 import TodoItem from './TodoItem';
 
-const TodoList: React.FC = () => {
+const TodoList = () => {
   const filter = useSelector((state: TodoState) => state.filter); // ดึงค่า filter จากสถานะ
 
   const todos = useSelector((state: any) => {

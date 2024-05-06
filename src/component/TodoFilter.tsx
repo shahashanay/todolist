@@ -4,7 +4,7 @@ import { Radio } from 'antd';
 import { setFilter } from '../redux/actions';
 
 
-const TodoFilter: React.FC = () => {
+const TodoFilter = () => {
   const dispatch = useDispatch();
 
   const handleFilterChange = (e: any) => {
