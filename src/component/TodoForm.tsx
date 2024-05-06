@@ -33,7 +33,7 @@ const TodoForm = () => {
         onChange={(e) => setDescription(e.target.value)}
         style={{ marginBottom: '8px' }}
       />
-      <Button disabled={title !=='' ? false : true} type="primary" onClick={handleSubmit}>Add Todo</Button>
+   <Button disabled={!title} type="primary" onClick={handleSubmit}>Add</Button>
     </div>
   );
 };
